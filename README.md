@@ -14,6 +14,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### npm start無法執行
+PS D:\demo\component-example> npm start
+
+> component-example@0.1.0 start
+> react-scripts start
+
+'react-scripts' 不是內部或外部命令、可執行的程式或批次檔。
+
+
+輸入指令安裝必要套件
+
+`npm install`
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

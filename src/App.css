@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.columns {
+  display: grid;
+  grid-template-areas: "primary secondary";
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.primary {
+  width: 700px;
+  background: #eee;
+}
+
+.secondary {
+  width: 300px;
+  background: #999;
+}
+
+.video-player {
+  height: 400px;
+  background: #bbb;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
